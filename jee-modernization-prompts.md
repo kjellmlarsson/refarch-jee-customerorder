@@ -60,6 +60,7 @@ Analyze the codebase in @/refarch-jee-customerorder/ and identify modernization 
 Section 1: Framework and architecture modernization for the target Quarkus runtime. Examples:
 
 - Application server or vendor specific extensions used and suggestions for replacing them
+- Moving to from javax to jakarta namespaces
 - Replacing JNDI lookups with CDI
 - Panache / Hibernate replacing of EJBs
 
