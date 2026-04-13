@@ -1,0 +1,5 @@
+# Bob ignore file
+# Files and patterns listed here will be excluded from Bob's context
+
+# Modernization prompts - internal documentation
+jee-modernization-prompts.md
