@@ -21,7 +21,7 @@
 Ask mode 
 
 ```
-What's the purpose of the @refarch-jee-customerorder/ application and who are the users? Read subdirectories and files in the application. Summarize in under 200 words.
+What's the purpose of the @refarch-jee-customerorder/ application and who are the users? Read subdirectories and files in the application. Summarize briefly.
 ```
 
 ## Whats the architecture and design?
@@ -29,7 +29,11 @@ What's the purpose of the @refarch-jee-customerorder/ application and who are th
 Advanced mode - for write access.
 
 ```
-Explain the architecture of @/refarch-jee-customerorder/ like I just joined the team. Start with a mermaid diagram of component dependencies with components grouped into layers of the app. Show external dependencies - anything that would execute outside of the app server. Include an ER diagram for the database and brief descriptions of the key tables. Write findings to ARCHITECTURE.md and keep it brief - not more than 300 lines.
+Explain the architecture of @/refarch-jee-customerorder/. Start with a mermaid diagram of component dependencies with components grouped into layers of the app.
+Write findings to ARCHITECTURE.md and keep it brief, assume that the reader is an experienced Java developer```
+
+```
+Add an ER diagram for the database and brief descriptions of the key tables. .
 ```
 
 ## Detailed analysis of versions used
@@ -70,7 +74,7 @@ Section 2: Language level modernization and mechanical changes. Opportunities to
 - Text blocks to simplify string concatenation
 - Switch expressions 
 
-Create a analysis report in markdown format MODERNIZATION.md - be brief and assume that an experienced Java developer is the target audience. The report should contain a list of all identified modernization opportunities and a prioritized plan for how to address them. Important: limit the analysis to 300 lines. Clearly call out anything that requires manual review.
+Create a analysis report in markdown format MODERNIZATION.md - be brief and assume that an experienced Java developer is the target audience. The report should contain a list of all identified modernization opportunities and a prioritized plan for how to address them.
 ```
 
 ```
