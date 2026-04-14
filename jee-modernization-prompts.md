@@ -1,22 +1,22 @@
 # Modernization
 
-* Understand
+* **Understand**
     * Functionality
-    * Architecture - ARCHITECTURE.md
-    * Versions in detail - ARCHITECTURE.md
+    * Architecture
+    * Versions in detail
     * Evolution of the Java ecosystem
-* Identify modernization opportunities and create a prioritized plan - MODERNIZATION.md
-    * Update the plan with branching
-    * Update the plan with more detail if necessary.
+* **Identify modernization opportunities and create plan**
+    * Identify modernization items and prioritize them
+    * Update the plan
     * Create Github issues for each item in the plan
-    
-* Start executing the modernization plan
+* **Start executing the modernization plan**
+    * Build
     * Implement an issue or two, update GitHub issues
-    * Run compilations
-* Summarize where we are
+    * Build
+* **Summarize progress so far**
     * Create ppt with status from GitHub
 
-## What does this app do?
+# Understand
 
 Ask mode 
 
@@ -26,14 +26,15 @@ What's the purpose of the @refarch-jee-customerorder/ application and who are th
 
 ## Whats the architecture and design?
 
-Advanced mode - for write access.
+Advanced mode
 
 ```
 Explain the architecture of @/refarch-jee-customerorder/. Start with a mermaid diagram of component dependencies with components grouped into layers of the app.
-Write findings to ARCHITECTURE.md and keep it brief, assume that the reader is an experienced Java developer```
+Write findings to ARCHITECTURE.md and keep it brief, assume that the reader is an experienced Java developer
+```
 
 ```
-Add an ER diagram for the database and brief descriptions of the key tables. .
+Add an ER diagram for the database and brief descriptions of the key tables.
 ```
 
 ## Detailed analysis of versions used
@@ -41,6 +42,7 @@ Add an ER diagram for the database and brief descriptions of the key tables. .
 ```
 Analyze all .pom files in @refarch-jee-customerorder/ and report on Java and Java EE versions. Add a table of findings to ARCHITECTURE.md with each (eg. CustomerOrderServices), javaee dependency version and scope (eg provided), and target versions for the maven-compiler-plugin. 
 ```
+
 
 ## How has the Java language and ecosystem evolved since this app was written? 
 
@@ -54,7 +56,7 @@ Generate a mermaid timeline diagram with major Java releases from Java 8 to Java
 Add the Java EE releases and descriptions of added functionality to the timeline and regenerate the png. Start with Java EE 7.
 ```
 
-## Identify modernization opportunities
+# Identify modernization opportunities and create plan
 
 Plan mode
 
@@ -85,14 +87,14 @@ Update the plan, I want to start with upgrading to Java 21 in the current codeba
 Create github issues for the steps so we can keep track of progress. Use the github mcp and create them in the original repo.
 ```
 
+# Start executing the modernization plan
+
 ```
 Implement issue # - assign it to me first
 ```
 
+# Summarize progress so far
+
 ```
 Use the Github MCP server to list all repo issues (also closed ones) and summarize the work sofar in a powerpoint file - use the powerpoint skill.
 ```
-
-# Closing
-
-Across the SDLC, Bob makes you faster, while you stay in control.
