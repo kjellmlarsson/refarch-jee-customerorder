@@ -1,20 +1,17 @@
 # Modernization
 
 * **Understand**
-    * Functionality
-    * Architecture
+    * Functionality & architecture
     * Versions in detail
-    * Evolution of the Java ecosystem
 * **Identify modernization opportunities and create plan**
     * Identify modernization items and prioritize them
     * Update the plan
     * Create Github issues for each item in the plan
-* **Start executing the modernization plan**
-    * Build
+* **Executing the modernization plan**
+    * Run Build
     * Implement an issue or two, update GitHub issues
-    * Build
-* **Summarize progress so far**
-    * Create ppt with status from GitHub
+    * Run Build
+    * Repeat... 
 
 # Understand
 
