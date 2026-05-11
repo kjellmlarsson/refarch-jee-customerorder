@@ -61,3 +61,9 @@ Update the plan, I want to start with upgrading to Java 21 in the current codeba
 ```
 Execute the first step of the modernization plan. 
 ```
+
+# MCP
+
+```
+check open issues in the https://github.com/ce-nrt-bob-workshops/cheese-catalog repo. use the mcp server
+```
